@@ -1,0 +1,133 @@
+@media only screen and (max-width:1200px) {
+  .images_work img {
+  width:49%;
+  height:50%;
+}
+}
+
+@media only screen and (max-width:992px) {
+  .sell_right .button {
+    margin:10px auto;
+    float:none;
+    max-width:230px;
+  }
+  .sell_descr {
+    text-align:center;
+  }
+  .maian_mnu ul {
+    display:none;
+    position:absolute;
+    background-color:#c7343a;
+    width:100%;
+  }
+  .maian_mnu ul li {
+    display:block;
+    border-top: 1px solid #52a151;
+  }
+  .next_button,
+  .prev_button {
+    font-size:20px;
+  }
+  .top_contacts {
+    font-size:22px;
+  }
+  .top_contacts i {
+    display:none;
+  }
+  .right_aside ul li img {
+    height: auto;
+    width: 95%
+  }
+  .blog_item h3 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .top_links {
+    display:none;
+    background-color:#585d61;
+    vertical-align:middle;
+    margin-top:54px;
+    padding:14px;
+    position:absolute;
+    width:100%;
+  }
+  .phone_footer {
+    display:none;
+    vertical-align:middle;
+    margin-top:10px;
+    padding:5px;
+    width:100%;
+    background-color:#ebebeb;
+  }
+  .mail_footer {
+    display:none;
+    vertical-align:middle;
+    margin-top:10px;
+    padding:5px;
+    width:100%;
+    background-color:#ebebeb;
+  }
+  .blog_item h3 {
+    text-align:center;
+  }
+  .highslide img {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .logo img {
+    width:100%;
+  }
+  .right_aside ul {
+    list-style-type:none;
+    padding:0;
+    margin-left:27px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .top_contacts {
+    font-size:12px;
+  }
+  input[name="story"] {
+    width:80%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .top_links {
+    display:inline-block !important;
+  }
+  .phone_footer {
+    display:inline-block !important;
+  }
+  .mail_footer {
+    display:inline-block !important;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .maian_mnu ul {
+    display:block !important;
+  }
+  .top_contacts {
+    font-size:22px;
+  }
+  .slide_item img {
+    width:100%;
+  }
+  .next_button,
+  .prev_button {
+    display:none;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .next_button,
+  .prev_button {
+    display:block;
+  }
+}
