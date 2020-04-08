@@ -149,3 +149,29 @@ input[name=story] {
 .prev_button:hover {
   background-color:#c7343a;
   transition:0.5s;
+}
+
+.loader {
+  background: none repeat scroll 0 0 #f4f5f6;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.loader_inner {
+  background-image: url("../images/preloader/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 230px;
+  width: 230px;
+  margin-top: -145px;
+  margin-left: -135px;
+  left: 50%;
+  top: 50%;
+  position: absolute; }
