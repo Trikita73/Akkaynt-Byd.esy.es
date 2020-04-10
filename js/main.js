@@ -71,10 +71,10 @@ $(document).ready(function() {
 
 });
 
-/*
+
 //Preloader
 $(window).load(function() {
 	$("loader_inner").fadeOut();
 	$(".loader").delay(900).fadeOut("slow");
 });
-*/
+
