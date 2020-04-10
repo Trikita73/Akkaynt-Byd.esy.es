@@ -151,6 +151,7 @@ input[name=story] {
   transition:0.5s;
 }
 
+/*
 .loader {
   background: none repeat scroll 0 0 #f4f5f6;
   bottom: 0;
@@ -175,3 +176,4 @@ input[name=story] {
   left: 50%;
   top: 50%;
   position: absolute; }
+  */
