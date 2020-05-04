@@ -3,6 +3,18 @@
   width:49%;
   height:50%;
 }
+.galley2 {
+  height: 370px;
+}
+.galley2 img {
+  max-width: 455px;
+}
+.gallery_alt {
+  margin-bottom: 15px;
+}
+.gallery_bot {
+  max-height: 315px;
+}
 }
 
 @media only screen and (max-width:992px) {
@@ -41,6 +53,15 @@
   .blog_item h3 {
     text-align: center;
   }
+  .gallery_alt {
+    margin-bottom: 55px;
+  }
+  .gallery_alt2 {
+    margin-bottom: 0;
+  }
+ .galley2 img {
+    max-width: 500px;
+    padding: 20px;
 }
 
 @media only screen and (max-width:768px) {
@@ -85,6 +106,13 @@
     list-style-type:none;
     padding:0;
     margin-left:27px;
+  }
+  .galley2 {
+    margin-left: 0;
+    margin-right: 0;
+   } 
+  .galley2 img {
+      max-width: 440px;
   }
 }
 

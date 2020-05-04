@@ -459,7 +459,16 @@ section.order {
 }
 
 .galley2 {
-  height: 300px;
-  display: block;
-  color: #eee;
+  height: 420px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
+.galley2 img { 
+  margin-top: 20px;
+  max-width: 500px;
+ }
+
+ .gallery_bot {
+  max-height: 360px;
+ }
